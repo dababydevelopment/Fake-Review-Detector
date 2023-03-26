@@ -1,0 +1,47 @@
+body {
+    background-color: #989ee7 !important;
+}
+
+#box1234 {
+    width: 50vw !important;
+    height: 50vh !important;
+    background-color: #bdcaff; /* #00a1ff  or  #bdcaff*/
+    border-radius: 15px;
+    margin-left: 25vw;
+    margin-top: 25vh;
+    text-align: center;
+    color:#322659;
+    text-shadow: 2px 2px #52619a;
+
+}
+
+
+#reviewBox {
+    width: 50%;
+    height: 25%;
+    background-color: #6e79e4;
+    border: 3px solid #1b2744;
+    border-radius: 7.5px;
+    color: white;
+    text-align: center;
+    display:block;
+    margin: 0 auto;
+}
+
+::placeholder {
+    color: white;
+}
+
+
+
+
+#submit-button {
+    background-color: #6e79e4;
+    width: 30%;
+    border-radius: 4px;
+    color: white;
+    border: 3px solid #1b2744;
+    display: block;
+    margin: 0 auto;
+    font-weight: bold;
+}

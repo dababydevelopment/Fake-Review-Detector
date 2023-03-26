@@ -1,0 +1,7 @@
+{% include "partials/header.html" %}
+<div id="box1234">
+    <h1>result</h1>
+    <h2 style="overflow-wrap: anywhere;text-shadow:none;">the review "{{request.form.get('text')}}" you entered was predicted to be {{result}}</h1>
+</div>
+
+{% include "partials/footer.html" %}
